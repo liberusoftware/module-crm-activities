@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Services;
+namespace Liberu\CRM\Activities\Services;
 
-use App\Models\Task;
+use Liberu\CRM\Activities\Models\Task;
 use App\Models\User;
-use App\Notifications\TaskAssignedNotification;
+use Liberu\Foundation\Notifications\Notifications\TaskAssignedNotification;
 use Illuminate\Support\Facades\Log;
 use Throwable;
 

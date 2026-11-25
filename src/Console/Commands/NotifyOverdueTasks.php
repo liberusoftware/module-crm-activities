@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Liberu\CRM\Activities\Console\Commands;
 
-use App\Events\TaskOverdue;
-use App\Models\Task;
+use Liberu\CRM\Core\Events\TaskOverdue;
+use Liberu\CRM\Activities\Models\Task;
 use Illuminate\Console\Command;
 
 class NotifyOverdueTasks extends Command

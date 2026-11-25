@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Models;
+namespace Liberu\CRM\Activities\Models;
 
-use App\Traits\IsTenantModel;
+use Liberu\Foundation\Organizations\Traits\IsTenantModel;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 

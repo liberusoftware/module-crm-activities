@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Livewire;
+namespace Liberu\CRM\Activities\Http\Livewire;
 
-use App\Models\CallLog;
-use App\Models\Contact;
-use App\Services\TwilioService;
+use Liberu\CRM\Activities\Models\CallLog;
+use Liberu\CRM\Core\Models\CrmContact as Contact;
+use Liberu\CRM\Telephony\Services\TwilioService;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
 use Livewire\Component;

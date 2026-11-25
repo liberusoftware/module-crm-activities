@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Livewire;
+namespace Liberu\CRM\Activities\Http\Livewire;
 
-use App\Models\Lead;
-use App\Models\Task;
+use Liberu\CRM\LeadCapture\Models\Lead;
+use Liberu\CRM\Activities\Models\Task;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
 use Livewire\Component;

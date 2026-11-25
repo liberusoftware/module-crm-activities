@@ -1,13 +1,15 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Liberu\CRM\Activities\Http\Controllers;
 
-use App\Models\Contact;
-use App\Models\Lead;
-use App\Models\Task;
+
+use Illuminate\Routing\Controller;
+use Liberu\CRM\Core\Models\CrmContact as Contact;
+use Liberu\CRM\LeadCapture\Models\Lead;
+use Liberu\CRM\Activities\Models\Task;
 use App\Models\User;
-use App\Services\ReminderService;
-use App\Services\TaskAssignmentService;
+use Liberu\CRM\Activities\Services\ReminderService;
+use Liberu\CRM\Activities\Services\TaskAssignmentService;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;

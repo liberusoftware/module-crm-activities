@@ -1,14 +1,21 @@
 <?php
 
-namespace App\Models;
+namespace Liberu\CRM\Activities\Models;
 
-use App\Traits\IsTenantModel;
+use Liberu\Foundation\Organizations\Traits\IsTenantModel;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 
-class Activity extends Model
+class CrmActivity extends Model
 {
+    protected $table = 'activities';
+
+
+    public function getForeignKey(): string
+    {
+        return 'activity_id';
+    }
     use HasFactory;
     use IsTenantModel;
 

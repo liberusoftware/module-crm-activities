@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Policies;
+namespace Liberu\CRM\Activities\Policies;
 
-use App\Models\Task;
+use Liberu\CRM\Activities\Models\Task;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 

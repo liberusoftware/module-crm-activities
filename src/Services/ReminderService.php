@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Services;
+namespace Liberu\CRM\Activities\Services;
 
-use App\Models\Task;
-use App\Notifications\TaskReminderNotification;
+use Liberu\CRM\Activities\Models\Task;
+use Liberu\Foundation\Notifications\Notifications\TaskReminderNotification;
 use Carbon\Carbon;
 use Exception;
 use Illuminate\Support\Facades\Log;

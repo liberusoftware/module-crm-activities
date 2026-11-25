@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Console\Commands;
+namespace Liberu\CRM\Activities\Console\Commands;
 
-use App\Services\ReminderService;
+use Liberu\CRM\Activities\Services\ReminderService;
 use Illuminate\Console\Command;
 
 class SendReminders extends Command

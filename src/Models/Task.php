@@ -1,11 +1,17 @@
 <?php
 
-namespace App\Models;
+namespace Liberu\CRM\Activities\Models;
 
-use App\Contracts\OwnsRecords;
-use App\Services\RecurringTaskService;
-use App\Traits\IsTenantModel;
-use App\Traits\RestrictsToOwner;
+
+use Liberu\CRM\Core\Models\Company;
+use Liberu\CRM\Core\Models\CrmContact as Contact;
+use Liberu\CRM\LeadCapture\Models\Lead;
+use Liberu\CRM\SalesWorkspace\Models\Opportunity;
+use App\Models\User;
+use Liberu\CRM\Core\Contracts\OwnsRecords;
+use Liberu\CRM\Activities\Services\RecurringTaskService;
+use Liberu\Foundation\Organizations\Traits\IsTenantModel;
+use Liberu\CRM\Core\Traits\RestrictsToOwner;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

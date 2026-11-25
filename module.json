@@ -2,7 +2,7 @@
   "name": "crm-activities",
   "display_name": "CRM Activities",
   "description": "Tasks, calls, meetings, emails, deadlines, recurrence, queues, reminders, outcomes, goals, and activity reporting.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "category": "capability",
   "provider": "Liberu\\CRM\\Activities\\ActivitiesServiceProvider",
   "requires": {

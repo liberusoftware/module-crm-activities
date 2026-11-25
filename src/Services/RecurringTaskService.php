@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Services;
+namespace Liberu\CRM\Activities\Services;
 
-use App\Models\Task;
+use Liberu\CRM\Activities\Models\Task;
 use Illuminate\Support\Carbon;
 
 class RecurringTaskService
